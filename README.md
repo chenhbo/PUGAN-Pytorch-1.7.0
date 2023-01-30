@@ -1,6 +1,7 @@
 # PUGAN-pytorch
 Pytorch unofficial implementation of PUGAN (a Point Cloud Upsampling Adversarial Network, ICCV, 2019)
-Form https://github.com/UncleMEDM/PUGAN-pytorch
+
+From https://github.com/UncleMEDM/PUGAN-pytorch
 
 #### Install some packages
 
