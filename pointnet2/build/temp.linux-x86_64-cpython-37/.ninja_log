@@ -1,0 +1,10 @@
+# ninja log v5
+0	10424	1674952775015470599	/home/hongbo/Downloads/PUGAN-pytorch-master/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/interpolate_gpu.o	3fd1357fc6e0231b
+0	10477	1674952775067469971	/home/hongbo/Downloads/PUGAN-pytorch-master/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/group_points_gpu.o	b0decb254bcf51f5
+0	10494	1674952775083469777	/home/hongbo/Downloads/PUGAN-pytorch-master/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/ball_query_gpu.o	bc6b83b1a5ae7374
+1	10594	1674952775183468569	/home/hongbo/Downloads/PUGAN-pytorch-master/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/sampling_gpu.o	a496a72555c33a12
+0	13718	1674952778299430869	/home/hongbo/Downloads/PUGAN-pytorch-master/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/bindings.o	e2342c370fcc3fe5
+0	14102	1674952778683426222	/home/hongbo/Downloads/PUGAN-pytorch-master/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/group_points.o	9fa9b733f5e16dd
+0	14215	1674952778799424821	/home/hongbo/Downloads/PUGAN-pytorch-master/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/ball_query.o	b11fb217e5504633
+0	14268	1674952778851424189	/home/hongbo/Downloads/PUGAN-pytorch-master/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/interpolate.o	a0e5bc1ae5cb036e
+1	14359	1674952778943423076	/home/hongbo/Downloads/PUGAN-pytorch-master/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/sampling.o	fc2b18c0f35c831b
