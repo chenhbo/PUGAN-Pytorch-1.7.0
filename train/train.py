@@ -80,7 +80,8 @@ def train(args):
     print("preparation time is %fs" % (time.time() - start_t))
     iter=0
     for e in range(params["nepoch"]):
-
+        D_scheduler.step()
+        G_scheduler.step()
         for batch_id,(input_data, gt_data, radius_data) in enumerate(train_data_loader):
            
             optimizer_G.zero_grad()
@@ -113,8 +114,7 @@ def train(args):
 
                 fake_pred=D_model(output_point_cloud)
                 g_loss=Loss_fn.get_generator_loss(fake_pred)
-                D_scheduler.step()
-                G_scheduler.step()
+           
                 #print(repulsion_loss,uniform_loss,emd_loss)
                 total_G_loss=params['uniform_w']*uniform_loss+params['emd_w']*emd_loss+ \
                 repulsion_loss*params['repulsion_w']+ g_loss*params['gan_w']
