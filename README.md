@@ -11,6 +11,8 @@ simply by
 ```
 conda create -n pugan python=3.6
 
+conda activate pugan
+
 conda install pytorch==1.7.0 torchvision torchaudio cudatoolkit=11.0 -c pytorch
 
 pip install -r requirements.txt
