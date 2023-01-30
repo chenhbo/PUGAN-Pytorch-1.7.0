@@ -2,9 +2,16 @@
 Pytorch unofficial implementation of PUGAN (a Point Cloud Upsampling Adversarial Network, ICCV, 2019)
 
 #### Install some packages
+
+RTX 3070; Python 3.6; Pytorch 1.7.0; CUDA 11.1.
+
 simply by 
 ```
-pip install -r requirement.txt
+conda create -n pugan python=3.6
+
+conda install pytorch==1.7.0 torchvision torchaudio cudatoolkit=11.0 -c pytorch
+
+pip install -r requirements.txt
 ```
 #### Install Pointnet2 module
 ```
