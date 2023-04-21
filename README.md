@@ -3,6 +3,8 @@ Pytorch unofficial implementation of PUGAN (a Point Cloud Upsampling Adversarial
 
 From https://github.com/UncleMEDM/PUGAN-pytorch
 
+Support RTX 3070 and CUDA 11.
+
 #### Install some packages
 
 RTX 3070; Python 3.6; Pytorch 1.7.0; CUDA 11.1.
